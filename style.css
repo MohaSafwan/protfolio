@@ -91,6 +91,7 @@ body{
         margin-top: 300px;
         margin-bottom: 0px;
       } */
+   
      .home-contant h3{
         margin-top: 50px;
         margin-left: 4px;
@@ -135,6 +136,15 @@ body{
         margin-left: 50%;
     }
 } 
+/* @media (max-width:600px) {
+    .home-contant h1{
+        font-size: 10px;
+    }
+    .home-contant #h3{
+        visibility: hidden;
+        margin-left: 4px;
+    }
+} */
 @media (max-width:900px) {
    
  
@@ -176,10 +186,10 @@ body{
 }
 @media (max-width:900px){
     .home{
-        width: 100%;
-        /* background:#081b29; */
+        width: 100%; 
+         /* background:#081b29;  */
         /* background: url(protfoliopic.png) no-repeat; */
-        height: 50vh;
+         height: 50vh;
     }
     .navbar{
         width: 100%;
@@ -189,11 +199,11 @@ body{
         position: relative;
         font-size: 15px;
         font-weight: 200;
-        margin-left:0 ;
-        /* margin-right: 2000px; */
+        margin-left:0 ; 
+        
         
     }
-    /* .home-contant h3{
+     .home-contant h3{
         margin-top: 50px;
         margin-left: 4px;
         
@@ -207,9 +217,9 @@ body{
         margin-left: 4px;
         font-size: 15px;
         
-    } */
+    } 
  
-    .navbar a{
+     .navbar a{
      
         font-size: 20px;
         color: #fff;
@@ -248,17 +258,17 @@ body{
         text-align: left;
         z-index: 2;
         transition: 1s;
-    }
-/* 
+    } 
+ 
     nav .bx{
         display: block;
         color: #fff;
         font-size: 22px;
         margin: 10px;
         cursor: pointer;
-    } */
+    } 
 
-    .navbar ul {
+     .navbar ul {
         padding: 10px;
 
     }
@@ -268,8 +278,13 @@ body{
     .bx-window-close{
         visibility: visible;
     } 
-} 
-
+}  
+.home-contant #h3{
+visibility: hidden;
+}
+.home-contant h1{
+    margin-top: 200px;
+}
 .home-contant{
     max-width: 600px;
 }
@@ -612,6 +627,7 @@ section{
     font-size: 23px;
 
 }
+
 .Technical-bar .bar{
     margin-top: 40px 0;
    
@@ -640,7 +656,7 @@ section{
     height: 5px;
     background-color: black;
     animation: animate 1s cubic-bezier(1,0, 0.5, 1)forwards;
-    transform: scaleX(0);
+    transform: scaleX(1);
     transform-origin: left;
 
 }
@@ -847,7 +863,7 @@ section{
 
 @keyframes animate{
     100%{
-        transform: scaleX(4);
+        transform: scaleX(3);
 }
 }
 
